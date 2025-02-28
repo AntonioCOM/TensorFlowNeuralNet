@@ -2,8 +2,13 @@
   "compilerOptions": {
     "module": "commonjs",
     "removeComments": true,
-    "preserveConstEnums": true
+    "preserveConstEnums": true,
+    "target": "es5", // Adjust based on your needs
+    "typeRoots": ["./node_modules/@types"],
+    "types": [],
+    "skipLibCheck": true
   },
+  "include": ["src/**/*"],
   "exclude": [
     "node_modules" 
   ]
